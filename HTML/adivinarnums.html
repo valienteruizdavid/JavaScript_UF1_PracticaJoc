@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>¡Adivino tu número!</title>
+    <script src="../js/adivino.js"></script>
+    <link rel="stylesheet" href="style/estiloAdivinarNums.css">
+  </head>
+  <body>
+    <div id="content">
+      <h1>¡Voy a adivinar tu número!</h1>
+      <br>
+      <center>
+        <img src="fotos/fotobody2.jpg" width="310">
+      </center>
+      <br>
+      <center>
+        <form id="dificultades">
+          <input type="radio" id="easy" name="gender" value="male"><label>Fácil</label>
+          <input type="radio" id="medium" name="gender" value="male"><label>Medio</label>
+          <input type="radio" id="hard" name="gender" value="male"><label>Difícil</label>
+        </form>
+          <br>
+          <button type="" name="button" id="menor" onclick="esmenor()" style="display: none;">Más pequeño</button>
+          <button type="" name="button" id="mayor" onclick="esmayor()" style="display: none;">Más grande</button>
+          <button type="" name="button" id="correcto" onclick="escorrecto()" style="display: none;">¡Correcto!</button>
+          <button type="" name="button" id="empezar" onclick="empezar()">Empezar</button>
+          <br>
+          <p id="txt3"></p>
+          <p id="txt4" style="font-size: 15px;"></p>
+          <p id="txt5" style="font-size: 15px;"></p>
+          <p id="txt6" style="font-size: 15px;"></p>
+          <p id="txt2"></p>
+          <p id="txt"></p>
+      </center>
+    </div>
+
+  </body>
+</html>
